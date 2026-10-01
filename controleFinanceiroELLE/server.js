@@ -1,4 +1,6 @@
 import { createServer } from 'node:http';
+const express = require('express');
+const app = express();
 const PORTA = 3000;
 
 const server = createServer((req, res) => {
